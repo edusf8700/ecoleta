@@ -47,12 +47,20 @@ form h1 {
 
 form fieldset {
   border: 0;
-
   margin-top: 64px;
 }
 
 form legend {
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+form legend span {
+  font-size: 14px;
+  color: var(--title-color)
 }
 
 form h2 {
